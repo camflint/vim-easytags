@@ -19,7 +19,7 @@ try
   " sure the vim-misc plug-in is installed. We specifically don't use Vim's
   " exists() function because it doesn't load auto-load scripts that haven't
   " already been loaded yet (last tested on Vim 7.3).
-  call type(g:xolox#misc#version)
+  "call type(g:xolox#misc#version)
 catch
   echomsg "Warning: The vim-easytags plug-in requires the vim-misc plug-in which seems not to be installed! For more information please review the installation instructions in the readme (also available on the homepage and on GitHub). The vim-easytags plug-in will now be disabled."
   let g:loaded_easytags = 1
